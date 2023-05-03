@@ -5,3 +5,43 @@
     font-family: "comic-sans", "Roboto", "Dosis", "sniglet";
 }
 
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    gap:20px;
+}
+
+.left-links{
+    display: flex;
+    gap:20px;
+    padding:10px;
+    margin-right: 50px;
+}
+
+.content{
+    margin:0px;
+}
+
+.sect1{
+    background-color: #1F2937;
+    color: white;
+    
+}
+
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
