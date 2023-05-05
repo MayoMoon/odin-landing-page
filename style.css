@@ -121,7 +121,7 @@ button{
 .info img{
     display: flex;
     justify-content: center;
-    max-width: 320px;
+    max-width: 640px;
     height: auto;
     margin-bottom: 52px;
     border: 5px solid #3882F6;
@@ -130,7 +130,7 @@ button{
 .info img{
     display: flex;
     justify-content: center;
-    width: 160px;
+    width: 320px;
     height: auto;
 }
 
@@ -140,6 +140,21 @@ button{
     color:#1F2937;
     font-style: light italic;
     padding: 10px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.sect3 .right{
+display: flex;
+align-self: flex-end;
+margin-right:50px;
 }
 
 .footer{
@@ -148,4 +163,5 @@ button{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding:30px;
 }
