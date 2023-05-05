@@ -45,7 +45,7 @@ a {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
 
@@ -67,6 +67,11 @@ a {
     font-size: 48px;
     font-weight: 800;
     color:#F9FAF8;
+    margin-bottom: 5px;
+}
+
+.sect1 h4{
+    margin-top: 5px;
 }
 
 .text1 {
@@ -83,6 +88,8 @@ button{
     color: #F9FAF8;
    justify-content: center;
    border-radius: 25px 25px;
+   border-style: none;
+   outline-style: none;
     width:100px;
     padding:10px;
     font-weight: 800;
@@ -91,8 +98,39 @@ button{
 
 .sect2{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    text-align: center;
+
+}
+
+.info{
+    justify-content: center;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 52px;
+}
+
+.info img{
+    display: flex;
+    justify-content: center;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 52px;
+}
+
+.info img{
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: auto;
 }
 
 .sect3{
