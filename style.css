@@ -141,21 +141,30 @@ button{
     font-style: light italic;
     padding: 10px;
     display: flex;
-    flex-direction:row ;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
 }
 
+.sect3 .text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right:50px;
+    }
 
-
-
-
+.sect3 .center{
+    display: flex;
+    align-self: center;
+    width:1000px;
+}
 
 .sect3 .right{
 display: flex;
 align-self: flex-end;
 margin-right:50px;
 }
+
 
 .footer{
     background-color: #1F2937;
