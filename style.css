@@ -165,6 +165,41 @@ align-self: flex-end;
 margin-right:50px;
 }
 
+.sect4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    margin:80px;
+
+}
+
+.sect4 .prompt{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    width: 800px;
+    height: auto;
+
+}
+
+.prompt button{
+    display: flex;
+    align-self: flex-end;
+    border: 5px solid #F9FAF8  ;
+}
+
+.prompt .two {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+}
 
 .footer{
     background-color: #1F2937;
